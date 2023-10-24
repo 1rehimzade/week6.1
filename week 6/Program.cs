@@ -68,7 +68,7 @@
 //    {
 //        List<Exam> exams = new List<Exam>();
 
-//        // Birkaç örnek sınav ekleyin (örnek veri)
+//       
 //        exams.Add(new Exam
 //        {
 //            Subject = "Math",
@@ -90,7 +90,7 @@
 //            StartDate = DateTime.Now - TimeSpan.FromHours(2)
 //        });
 
-//        // Son 1 hafta içindeki sınavlar
+//       
 //        Console.WriteLine("Son 1 hafta içindeki sınavlar:");
 //        foreach (var exam in exams)
 //        {
@@ -100,7 +100,7 @@
 //            }
 //        }
 
-//        // 2 saatten uzun sınavlar
+//  
 //        Console.WriteLine("\n2 saatten uzun sınavlar:");
 //        foreach (var exam in exams)
 //        {
@@ -110,7 +110,7 @@
 //            }
 //        }
 
-//        // Başlamış, ama bitmemiş sınavlar
+//     
 //        Console.WriteLine("\nBaşlamış, ama bitmemiş sınavlar:");
 //        foreach (var exam in exams)
 //        {
